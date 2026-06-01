@@ -115,7 +115,7 @@ input[type="checkbox"]:checked + .toggle-track::after {
 }
 
 .result-item:hover, .setting-row:hover {
-  border-left-color: var(--accent-yellow);
+  border-left-color: var(--accent);
   background: #0a0a0a;
 }
 
