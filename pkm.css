@@ -94,7 +94,7 @@ input[type="checkbox"]:checked + .toggle-track::after {
 
 /* snappier transitions */
 * {
-  transition-duration: var(--duration-micro) !important;
+  transition-duration: 0.05s !important;
 }
 
 /* minimal scrollbar */
