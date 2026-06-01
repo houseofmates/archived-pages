@@ -93,8 +93,26 @@ input[type="checkbox"]:checked + .toggle-track::after {
 }
 
 /* snappier transitions */
-* {
-  transition-duration: 0.05s !important;
+button,
+input[type="submit"],
+.btn,
+a,
+.toggle-track,
+.toggle-track::after,
+.result-item,
+.setting-row,
+.engine-card,
+.card,
+.modal,
+.dropdown,
+.tooltip {
+  transition-duration: 0.05s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition-duration: 0ms !important;
+  }
 }
 
 /* minimal scrollbar */
