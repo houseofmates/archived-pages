@@ -103,7 +103,7 @@ input[type="checkbox"]:checked + .toggle-track::after {
   height: 4px;
 }
 ::-webkit-scrollbar-thumb {
-  background: var(--accent-yellow);
+  background: var(--accent);
 }
 
 /* bento cards for list items */
