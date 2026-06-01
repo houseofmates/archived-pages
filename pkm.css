@@ -121,5 +121,5 @@ input[type="checkbox"]:checked + .toggle-track::after {
 
 /* force dark mode colors on everything */
 html {
-  background-color: var(--bg-primary);
+  background-color: var(--bg);
 }
