@@ -109,7 +109,7 @@ input[type="checkbox"]:checked + .toggle-track::after {
 /* bento cards for list items */
 .result-item, .setting-row, .engine-card {
   background: #000000;
-  margin-bottom: var(--s-1);
+  margin-bottom: 4px;
   padding: var(--s-3) !important;
   border-left: 2px solid transparent;
 }
