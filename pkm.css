@@ -91,3 +91,35 @@ input[type="checkbox"]:checked + .toggle-track::after {
   background: var(--accent);
   transform: translateX(32px);
 }
+
+/* snappier transitions */
+* {
+  transition-duration: var(--duration-micro) !important;
+}
+
+/* minimal scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--accent-yellow);
+}
+
+/* bento cards for list items */
+.result-item, .setting-row, .engine-card {
+  background: var(--bg-dark);
+  margin-bottom: var(--s-1);
+  padding: var(--s-3) !important;
+  border-left: 2px solid transparent;
+}
+
+.result-item:hover, .setting-row:hover {
+  border-left-color: var(--accent-yellow);
+  background: #0a0a0a;
+}
+
+/* force dark mode colors on everything */
+html {
+  background-color: var(--bg-primary);
+}

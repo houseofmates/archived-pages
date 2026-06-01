@@ -3,7 +3,7 @@
     "message": "web archives"
   },
   "extensionDescription": {
-    "message": "view archived and cached versions of web pages on various search engines, such as the wayback machine and archive.is."
+    "message": "archived pages"
   },
   "engineName_yandex": {
     "message": "yandex"
@@ -36,10 +36,10 @@
     "message": "software heritage"
   },
   "engineName_allEngines": {
-    "message": "all search engines"
+    "message": "all engines"
   },
   "actionTitle_allEngines": {
-    "message": "search all engines for page"
+    "message": "search all"
   },
   "actionTitle_engine": {
     "message": "search $engine$ for page",
@@ -96,13 +96,13 @@
     }
   },
   "menuItemTitle_openCurrentDoc": {
-    "message": "open current page"
+    "message": "open current"
   },
   "optionSectionTitle_engines": {
     "message": "search engines"
   },
   "optionSectionDescription_engines": {
-    "message": "toggle search engines and customize their order (drag and drop)"
+    "message": "toggle and reorder"
   },
   "optionTitle_yandex": {
     "message": "yandex cache"
@@ -135,7 +135,7 @@
     "message": "software heritage"
   },
   "optionTitle_searchMode": {
-    "message": "search mode"
+    "message": "mode"
   },
   "optionTitle_searchAllEngines": {
     "message": "search all engines"
@@ -273,7 +273,7 @@
     "message": "page url"
   },
   "buttonLabel_contribute": {
-    "message": "contribute"
+    "message": "support"
   },
   "pageTitle": {
     "message": "$pagetitle$ - $extensionname$",
@@ -328,7 +328,7 @@
     "message": "unpin"
   },
   "error_invalidPageUrl": {
-    "message": "the page url is not valid."
+    "message": "invalid url"
   },
   "error_invalidSearchMode_url": {
     "message": "searching for page urls is only supported from the browser toolbar popup. visit the extension's options to select a different search mode."
@@ -358,13 +358,13 @@
     }
   },
   "error_noResults": {
-    "message": "no results found."
+    "message": "no results"
   },
   "error_scriptsNotAllowed": {
-    "message": "content scripts are not allowed on this page."
+    "message": "scripts blocked"
   },
   "error_allEnginesDisabled": {
-    "message": "all search engines have been disabled. visit the extensions's options to enable a search engine."
+    "message": "no engines enabled"
   },
   "error_noSearchEngineAccess": {
     "message": "cannot access search page results. visit menu > extensions and enable the \"allow access to search page results\" option for the extension."
@@ -373,6 +373,6 @@
     "message": "restart the browser for changes to take effect."
   },
   "error_currentDocUrlNotFound": {
-    "message": "current page url not found."
+    "message": "url not found"
   }
 }
