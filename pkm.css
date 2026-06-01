@@ -91,3 +91,53 @@ input[type="checkbox"]:checked + .toggle-track::after {
   background: var(--accent);
   transform: translateX(32px);
 }
+
+/* snappier transitions */
+button,
+input[type="submit"],
+.btn,
+a,
+.toggle-track,
+.toggle-track::after,
+.result-item,
+.setting-row,
+.engine-card,
+.card,
+.modal,
+.dropdown,
+.tooltip {
+  transition-duration: 0.05s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition-duration: 0ms !important;
+  }
+}
+
+/* minimal scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--accent);
+}
+
+/* bento cards for list items */
+.result-item, .setting-row, .engine-card {
+  background: #000000;
+  margin-bottom: 4px;
+  padding: 12px !important;
+  border-left: 2px solid transparent;
+}
+
+.result-item:hover, .setting-row:hover {
+  border-left-color: var(--accent);
+  background: #0a0a0a;
+}
+
+/* force dark mode colors on everything */
+html {
+  background-color: var(--bg);
+}

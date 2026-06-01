@@ -2,9 +2,9 @@
   "manifest_version": 2,
   "name": "archived-pages",
   "description": "archived pages.",
-  "version": "7.3.0",
+  "version": "7.3.1",
   "author": "houseofmates",
-  "homepage_url": "https://github.com/dessant/web-archives",
+  "homepage_url": "https://github.com/houseofmates/archived-pages",
   "default_locale": "en",
   "browser_specific_settings": {
     "gecko": {
