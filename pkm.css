@@ -110,7 +110,7 @@ input[type="checkbox"]:checked + .toggle-track::after {
 .result-item, .setting-row, .engine-card {
   background: #000000;
   margin-bottom: 4px;
-  padding: var(--s-3) !important;
+  padding: 12px !important;
   border-left: 2px solid transparent;
 }
 
