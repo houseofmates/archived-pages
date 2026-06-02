@@ -46,7 +46,7 @@
     "placeholders": {
       "engine": {
         "content": "$1",
-        "example": "Wayback Machine"
+        "example": "wayback machine"
       }
     }
   },
@@ -91,7 +91,7 @@
     "placeholders": {
       "engine": {
         "content": "$1",
-        "example": "Wayback Machine"
+        "example": "wayback machine"
       }
     }
   },
@@ -280,11 +280,11 @@
     "placeholders": {
       "pageTitle": {
         "content": "$1",
-        "example": "Options"
+        "example": "options"
       },
       "extensionName": {
         "content": "$2",
-        "example": "Extension Name"
+        "example": "extension name"
       }
     }
   },
@@ -344,7 +344,7 @@
     "placeholders": {
       "engine": {
         "content": "$1",
-        "example": "Wayback Machine"
+        "example": "wayback machine"
       }
     }
   },
@@ -353,7 +353,7 @@
     "placeholders": {
       "engine": {
         "content": "$1",
-        "example": "Wayback Machine"
+        "example": "wayback machine"
       }
     }
   },
@@ -374,5 +374,17 @@
   },
   "error_currentDocUrlNotFound": {
     "message": "url not found"
+  },
+  "contextMenu_saveToWayback": {
+    "message": "save to wayback machine"
+  },
+  "contextMenu_saveToArchiveIs": {
+    "message": "save to archive.is"
+  },
+  "contextMenu_saveToGhostarchive": {
+    "message": "save to ghostarchive"
+  },
+  "contextMenu_copyMarkdownLink": {
+    "message": "copy as markdown link"
   }
 }
