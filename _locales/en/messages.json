@@ -46,7 +46,7 @@
     "placeholders": {
       "engine": {
         "content": "$1",
-        "example": "Wayback Machine"
+        "example": "wayback machine"
       }
     }
   },
@@ -91,7 +91,7 @@
     "placeholders": {
       "engine": {
         "content": "$1",
-        "example": "Wayback Machine"
+        "example": "wayback machine"
       }
     }
   },
@@ -280,11 +280,11 @@
     "placeholders": {
       "pageTitle": {
         "content": "$1",
-        "example": "Options"
+        "example": "options"
       },
       "extensionName": {
         "content": "$2",
-        "example": "Extension Name"
+        "example": "extension name"
       }
     }
   },
@@ -344,7 +344,7 @@
     "placeholders": {
       "engine": {
         "content": "$1",
-        "example": "Wayback Machine"
+        "example": "wayback machine"
       }
     }
   },
@@ -353,7 +353,7 @@
     "placeholders": {
       "engine": {
         "content": "$1",
-        "example": "Wayback Machine"
+        "example": "wayback machine"
       }
     }
   },
@@ -374,5 +374,44 @@
   },
   "error_currentDocUrlNotFound": {
     "message": "url not found"
+  },
+  "contextMenu_saveToWayback": {
+    "message": "save to wayback machine"
+  },
+  "contextMenu_saveToArchiveIs": {
+    "message": "save to archive.is"
+  },
+  "contextMenu_saveToGhostarchive": {
+    "message": "save to ghostarchive"
+  },
+  "contextMenu_copyMarkdownLink": {
+    "message": "copy as markdown link"
+  },
+  "engineName_google": {
+    "message": "google cache"
+  },
+  "engineName_bing": {
+    "message": "bing cache"
+  },
+  "engineName_baidu": {
+    "message": "baidu cache"
+  },
+  "menuItemTitle_google": {
+    "message": "google cache"
+  },
+  "menuItemTitle_bing": {
+    "message": "bing cache"
+  },
+  "menuItemTitle_baidu": {
+    "message": "baidu cache"
+  },
+  "optionTitle_google": {
+    "message": "google cache"
+  },
+  "optionTitle_bing": {
+    "message": "bing cache"
+  },
+  "optionTitle_baidu": {
+    "message": "baidu cache"
   }
 }
