@@ -53,23 +53,20 @@
 
       // Use clipboard API if available in background, or inject script
       browser.tabs.executeScript(tab.id, {
-        code: "navigator.clipboard.writeText('" + markdown.replace(/'/g, "\'") + "')"
+        code: "navigator.clipboard.writeText(" + JSON.stringify(markdown) + ")"
       });
     }
   });
 })();
 
-  // Additional engine logic for Bing and Baidu Caches
+  // Additional engine logic - redirect defunct cache searches to Wayback Machine
   browser.runtime.onMessage.addListener((message, sender, sendResponse) => {
     if (message.id === "search_additional") {
       const { engine, url } = message;
       let searchUrl = "";
-      if (engine === "bing") {
-        searchUrl = "https://www.bing.com/search?q=cache:" + encodeURIComponent(url);
-      } else if (engine === "baidu") {
-        searchUrl = "https://www.baidu.com/s?wd=cache:" + encodeURIComponent(url);
-      } else if (engine === "google") {
-        searchUrl = "https://webcache.googleusercontent.com/search?q=cache:" + encodeURIComponent(url);
+      if (engine === "bing" || engine === "google" || engine === "baidu") {
+        // Redirect to Wayback Machine since cache operators are no longer reliable
+        searchUrl = "https://web.archive.org/web/*/" + encodeURIComponent(url);
       }
 
       if (searchUrl) {

@@ -14,7 +14,7 @@ this is a fork of the [dessant/web-archives](https://github.com/dessant/web-arch
 
 ### changes from original
 
-- redesigned the ui with a dark pkm aesthetic. all text is now lowercase. extension renamed from archived-pages to archived-pages. auto-update checking added.
+- redesigned the ui with a dark pkm aesthetic. all text is now lowercase. extension renamed from web-archives to archived-pages. auto-update checking added.
 
 ## credits
 

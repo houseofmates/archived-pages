@@ -59,7 +59,7 @@ a:hover {
   opacity: 0.8;
 }
 
-button, input[type="submit"], .btn, .v-btn {
+button, input[type="submit"], .btn {
   background: var(--accent) !important;
   color: #050505 !important;
   border: none !important;
@@ -69,11 +69,12 @@ button, input[type="submit"], .btn, .v-btn {
   padding: 12px 24px !important;
   text-transform: lowercase !important;
   transition: all 0.2s var(--ease-expo) !important;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   gap: 8px;
-  border-radius: 0 !important;
+}
+
+.v-btn {
+  font-family: 'Varela Round', sans-serif !important;
+  text-transform: lowercase !important;
 }
 
 button:hover, input[type="submit"]:hover, .btn:hover {
@@ -149,7 +150,7 @@ input[type="checkbox"]:checked + .toggle-track::after {
 }
 
 /* bento cards for list items */
-.result-item, .setting-row, .engine-card, .option, .card, .v-list-item, .v-card {
+.result-item, .setting-row, .engine-card, .option, .card {
   background: #000000 !important;
   margin-bottom: 8px !important;
   padding: 16px !important;
@@ -158,9 +159,18 @@ input[type="checkbox"]:checked + .toggle-track::after {
   border-radius: 0 !important;
 }
 
-.result-item:hover, .setting-row:hover, .engine-card:hover, .option:hover, .card:hover, .v-list-item:hover, .v-card:hover {
+.result-item:hover, .setting-row:hover, .engine-card:hover, .option:hover, .card:hover {
   border-left-color: var(--accent) !important;
   background: #0a0a0a !important;
+}
+
+.v-list-item, .v-card {
+  font-family: 'Varela Round', sans-serif !important;
+  text-transform: lowercase !important;
+}
+
+.v-list-item:hover, .v-card:hover {
+  border-left-color: var(--accent) !important;
 }
 
 /* signature moment: subtle pulse for active states */
@@ -197,9 +207,12 @@ input[type="checkbox"]:checked + .toggle-track::after {
 .stagger-reveal > *:nth-child(4) { animation-delay: 0.2s; }
 .stagger-reveal > *:nth-child(5) { animation-delay: 0.25s; }
 
-.v-application, .v-application *, .v-list, .v-menu, .v-overlay__content {
+.v-application {
   font-family: 'Varela Round', sans-serif !important;
   text-transform: lowercase !important;
-  border-radius: 0 !important;
-  box-shadow: none !important;
+}
+
+.v-list, .v-menu, .v-overlay__content {
+  font-family: 'Varela Round', sans-serif !important;
+  text-transform: lowercase !important;
 }
